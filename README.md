@@ -2,7 +2,7 @@
 
 **Week 0 | 10 Academy Data Analytics Project**
 
-![Project Banner](https://via.placeholder.com/800x250/0A2540/00FFAA?text=MoonLight+Energy+Solutions)
+
 
 ### 📋 Project Overview
 
