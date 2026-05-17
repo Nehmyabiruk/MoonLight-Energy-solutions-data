@@ -1,98 +1,98 @@
-🌙 MoonLight Energy Solutions – Week 0 Data Analytics Project
-👤 Author
+# 🌙 MoonLight Energy Solutions - Solar Data Analysis
 
-Nehmyabiruk
+**Week 0 | 10 Academy Data Analytics Project**
 
-📌 Project Overview
+![Project Banner](https://via.placeholder.com/800x250/0A2540/00FFAA?text=MoonLight+Energy+Solutions)
 
-This repository contains the Week 0 Data Analytics Project for MoonLight Energy Solutions.
+### 📋 Project Overview
 
-The objective of this project is to set up a structured data analytics environment and perform an initial exploratory analysis, including cross-country comparison and foundational data processing workflows.
+Comprehensive **Exploratory Data Analysis (EDA)** on solar power generation and weather data from **Benin, Sierra Leone, and Togo**. 
 
-This project establishes the groundwork for future data-driven decision-making and analytics tasks.
+This project analyzes solar irradiance, power output, and weather patterns to help MoonLight Energy Solutions optimize performance, identify maintenance needs, and support data-driven expansion across West Africa.
 
-🎯 Objectives
+---
 
-Initialize a clean and professional project structure
+### 🎯 Objectives
 
-Set up development environment and dependencies
+- Perform in-depth EDA on solar datasets from three countries
+- Compare energy performance across Benin, Sierra Leone, and Togo
+- Ensure clean, reproducible, and professional project structure
+- Build reusable code modules for future analysis
 
-Implement exploratory data analysis (EDA)
+---
 
-Perform cross-country comparison analysis
+### 📂 Project Structure
 
-Ensure reproducibility using version control and workflow configuration
-
-📂 Project Structure
-moonlight-energy/
-│
-├── .github/workflows/      # CI/CD workflows
-├── .vscode/                # VS Code configuration
-├── notebooks/              # Jupyter notebooks for analysis
-│   └── cross-country comparison notebook
-├── scripts/                # Utility and automation scripts
-├── src/                    # Source code
-├── tests/                  # Unit tests
-├── .gitignore              # Git ignored files
-├── requirements.txt        # Project dependencies
-├── README.md               # Project documentation
+```bash
+MoonLight-Energy-solutions-data/
+├── data/                      # Raw and cleaned datasets
+│   ├── benin.csv
+│   ├── sierraleone.csv
+│   ├── togo.csv
+│   └── *_clean.csv
+├── notebooks/                 # Main analysis notebooks
+│   └── moon_light_professional_eda.ipynb
+├── src/                       # Reusable Python modules
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── eda_utils.py
+│   └── visualization.py
+├── plots/                     # Generated visualizations
+├── requirements.txt
+├── main.py
+├── .gitignore
+└── README.md
 
 🛠️ Technologies Used
 
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib / Seaborn
-
+Python 3.10+
+pandas, NumPy
+Matplotlib, Seaborn, Plotly
 Jupyter Notebook
-
-Git & GitHub
-
-🚀 Getting Started
-1️⃣ Clone the Repository
-git clone https://github.com/Nehmyabiruk/moonlight-energy.git
-cd moonlight-energy
-
-2️⃣ Create Virtual Environment
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-
-4️⃣ Run Jupyter Notebook
-jupyter notebook
+SciPy
 
 
-Open the notebook inside the notebooks/ directory to explore the analysis.
+🚀 Quick Start
+1. Clone the Repository
+Bashgit clone https://github.com/Nehmyabiruk/MoonLight-Energy-solutions-data.git
+cd MoonLight-Energy-solutions-data
+2. Create Virtual Environment (Recommended)
+Bashpython -m venv venv
 
-📊 Key Features
+# Windows
+venv\Scripts\activate
 
-Structured project architecture
+# Mac / Linux
+# source venv/bin/activate
+3. Install Dependencies
+Bashpip install -r requirements.txt
+4. Run the Analysis
+Option A: Using VS Code (Recommended)
 
-Cross-country comparison analysis
+Open the project folder in VS Code
+Open notebooks/moon_light_professional_eda.ipynb
+Select Python kernel and run the cells
 
-Clean and modular code organization
+Option B: Using Terminal
+Bashjupyter notebook
 
-Basic CI workflow setup
+📊 Key Analysis Includes
 
-Testing folder for scalability
+Data loading and quality assessment
+Time series visualization of solar irradiance and power output
+Correlation analysis between weather and power generation
+Cross-country comparison
+Data cleaning and outlier handling
+Interactive Plotly visualizations
 
-🧪 Testing
 
-To run tests:
+📈 Future Enhancements
 
-pytest
+Streamlit / Power BI interactive dashboard
+Predictive modeling for power output forecasting
+Automated daily reporting system
+Anomaly detection for faulty solar panels
 
-📈 Future Improvements
 
-Add advanced data visualization dashboards
-
-Implement predictive analytics models
-
-Improve automation scripts
-
-Expand test coverage
+Made with ❤️ by Nehmyabiruk
+10 Academy Data Science Program - Week 0
