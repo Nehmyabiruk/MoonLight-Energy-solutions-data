@@ -5,7 +5,7 @@ from src.visualization import plot_time_series, compare_countries_hist
 if __name__ == "__main__":
     print("🌙 MoonLight Energy Solutions - Starting Analysis...\n")
     
-    data = load_all_data()
+    data = load_all_data() rf jrekghrekj.
     
     for country, df in data.items():
         basic_info(df, country) bdtsvkhudc
