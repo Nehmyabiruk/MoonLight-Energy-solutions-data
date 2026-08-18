@@ -8,7 +8,7 @@ if __name__ == "__main__":
     data = load_all_data()
     
     for country, df in data.items():
-        basic_info(df, country)
+        basic_info(df, country) bdtsvkhudc
     
     compare_countries_hist(data, column="GHI")
     print("\n✅ Analysis completed successfully!")
